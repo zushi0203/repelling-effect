@@ -2,7 +2,6 @@ const { resolve } = require("path");
 const { defineConfig } = require("vite");
 
 module.exports = defineConfig({
-  base: "/repelling-effect",
   build: {
     outDir: "docs",
     rollupOptions: {
